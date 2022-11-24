@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./home.css">
+    <title>Ebay</title>
+</head>
+
+<body>
+
+    <div class="upper">
+        <div class="upper_left">
+            <ul>
+
+                <li>Hi! &nbsp;<a href="#">Sign in</a> or <a href="#">Register</a> </li>
+                <li><a href="#">Daily Deals</a></li>
+                <li><a href="#">Help & contact</a></li>
+            </ul>
+        </div>
+        <div class="upper_right">
+            <ul>
+                <li><a href="#">Ship to</a></li>
+                <li><a href="#">Sell</a></li>
+
+                <li onclick="drop()"><a href="#">Watchlist</a></li>
+
+                <li><a href="#">My ebay</a></li>
+                <li><img src="./Image/navigation_icon.png" alt="image"></li>
+                <li><img src="./Image/cart.png" alt="image"></li>
+
+            </ul>
+        </div>
+    </div>
+    <hr>
+
+
+    <div class="table_div">
+        <table>
+            <tr>
+                <td>
+                    <img src="./Image/logo.png" alt="logo" align="left" width="150" height="70">
+                </td>
+                <td>
+                    <div class="cont">
+
+                        <span><a href="#">Shop by <br>
+                              category </a></span>
+
+                    </div>
+
+
+                    <div class="header-banner">
+
+                    </div>
+
+                </td>
+                <td>
+                    <center>
+                        <form class="example" action="action_page.php">
+                            <input type="text" placeholder="Search For anything" name="search">
+                </td>
+                <td>
+                    <select aria-label="Select a category for search" size="1" class="dd2">
+                        <option value="0">All Categories</option>
+                        <option value="20081">Antiques</option>
+                        <option value="550">Art</option>
+                        <option value="2984">Baby</option>
+                        <option value="267">Books</option>
+                        <option value="12576">Business &amp; Industrial</option>
+                        <option value="625">Cameras &amp; Photo</option>
+                        <option value="15032">Cell Phones &amp; Accessories</option>
+                        <option value="11450">Clothing, Shoes &amp; Accessories</option>
+                        <option value="11116">Coins &amp; Paper Money</option>
+                        <option value="1">Collectibles</option>
+                        <option value="58058">Computers/Tablets &amp; Networking</option>
+                        <option value="293">Consumer Electronics</option>
+                        <option value="14339">Crafts</option>
+                        <option value="237">Dolls &amp; Bears</option>
+                        <option value="11232">DVDs &amp; Movies</option>
+                        <option value="6000">eBay Motors</option>
+                        <option value="45100">Entertainment Memorabilia</option>
+                        <option value="172008">Gift Cards &amp; Coupons</option>
+                        <option value="26395">Health &amp; Beauty</option>
+                        <option value="11700">Home &amp; Garden</option>
+                        <option value="281">Jewelry &amp; Watches</option>
+                        <option value="11233">Music</option>
+                        <option value="619">Musical Instruments &amp; Gear</option>
+                        <option value="1281">Pet Supplies</option>
+                        <option value="870">Pottery &amp; Glass</option>
+                        <option value="10542">Real Estate</option>
+                        <option value="316">Specialty Services</option>
+                        <option value="888">Sporting Goods</option>
+                        <option value="64482">Sports Mem, Cards &amp; Fan Shop</option>
+                        <option value="260">Stamps</option>
+                        <option value="1305">Tickets &amp; Experiences</option>
+                        <option value="220">Toys &amp; Hobbies</option>
+                        <option value="3252">Travel</option>
+                        <option value="1249">Video Games &amp; Consoles</option>
+                        <option value="99">Everything Else</option>
+                    </select>
+                </td>
+                <td>
+                    <button class="bttn">Search</button>
+                </td>
+                <td><a title="Advanced Search" href="https://www.ebay.com/sch/ebayadvsearch"
+                        aria-label="Advanced Search">Advanced</a>
+                </td>
+            </tr>
+            </form>
+        </table>
+    </div>
+
+    </center>
+    <hr>
+
+
+    <!--dropdown-->
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <div class="dropdown">
+            <button class="dropbtn">Electronics
+            </button>
+            <div class="dropdown-content">
+                <div class="row">
+                    <div class="column">
+                        <h4>Most popular categories</h4>
+                        <a href="#">Cell phones and accessories</a>
+                        <a href="#">Video games and consoles</a>
+                        <a href="#">Computers and tablets</a>
+                        <a href="#">Cameras and photos</a>
+                        <a href="#">Camera drones</a>
+                        <a href="#">Asian Brands</a>
+                        <a href="#">Smart home</a>
+                    </div>
+                    <div class="column">
+                        <h4>More categories</h4>
+                        <a href="#">Apple</a>
+                        <a href="#">Samsung</a>
+                        <a href="#">Xiaomi</a>
+                        <a href="#">Portable audio and headphones</a>
+                        <a href="#">Smart watches</a>
+                        <a href="#">Deals</a>
+                        <a href="#">Sell on eBay</a>
+                    </div>
+                    <div class="column">
+                        <img src="image/electronics.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Fashion
+            </button>
+            <div class="dropdown-content">
+                <div class="row">
+                    <div class="column">
+                        <h4>Most popular categories</h4>
+                        <a href="#">Footwear</a>
+                        <a href="#">Women's clothing</a>
+                        <a href="#">Footwear for women</a>
+                        <a href="#">Clothes for men</a>
+                        <a href="#">Men's footwear</a>
+                        <a href="#">Watches</a>
+                        <a href="#">Jewelry</a>
+                    </div>
+                    <div class="column">
+                        <h4>More categories</h4>
+                        <a href="#">Accessories for men</a>
+                        <a href="#">Accessories for women</a>
+                        <a href="#">Bags and wallets for women</a>
+                        <a href="#">Mens sunglasses</a>
+                        <a href="#">Womens sunglasess</a>
+                        <a href="#">Sneakers</a>
+                        <a href="#">Sell on eBay</a>
+                    </div>
+                    <div class="column">
+                        <img src="image/fasion.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Health and beauty
+            </button>
+            <div class="dropdown-content">
+                <div class="row">
+                    <div class="column">
+                        <h4>Most popular categories</h4>
+                        <a href="#">Beauty</a>
+                        <a href="#">Makeup</a>
+                        <a href="#">Health</a>
+                        <a href="#">K-Beauty</a>
+                        <a href="#">Manicure and pedicure</a>
+                        <a href="#">Hair products</a>
+                        <a href="#">Skin products</a>
+                    </div>
+                    <div class="column">
+                        <h4>More categories</h4>
+                        <a href="#">Orthopedic products</a>
+                        <a href="#">Vitamins and food supplements</a>
+                        <a href="#">Shaving and waxing</a>
+                        <a href="#">Bath and personal hygiene</a>
+                        <a href="#">Oral hygiene</a>
+                        <a href="#">Deals</a>
+                        <a href="#">Sell on eBay</a>
+                    </div>
+                    <div class="column">
+                        <img src="image/health&beauty.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Home & Garden
+            </button>
+            <div class="dropdown-content">
+                <div class="row">
+                    <div class="column">
+                        <h4>Most popular categories</h4>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                        
+                    </div>
+                    <div class="column">
+                        <h4>More categories</h4>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                        
+                    </div>
+                    <div class="column">
+                        <img src="image/collection.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Sport
+            </button>
+            <div class="dropdown-content">
+                <div class="row">
+                    <div class="column">
+                        <h4>Most popular categories</h4>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                       
+                    </div>
+                    <div class="column">
+                        <h4>More categories</h4>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                        
+                    </div>
+                    <div class="column">
+                        <img src="image/spring.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Collectables and Art
+            </button>
+            <div class="dropdown-content">
+                <div class="row">
+                    <div class="column">
+                        <h4>Most popular categories</h4>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                        
+                    </div>
+                    <div class="column">
+                        <h4>More categories</h4>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                        
+                    </div>
+                    <div class="column">
+                        <img src="image/bike.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Industrial and Art
+            </button>
+            <div class="dropdown-content">
+                <div class="row">
+                    <div class="column">
+                        <h4>Most popular categories</h4>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                        
+                    </div>
+                    <div class="column">
+                        <h4>More categories</h4>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                        
+                    </div>
+                    <div class="column">
+                        <img src="image/game.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Motors
+            </button>
+            <div class="dropdown-content">
+                <div class="row">
+                    <div class="column">
+                        <h4>Most popular categories</h4>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                       
+                    </div>
+                    <div class="column">
+                        <h4>More categories</h4>
+                            <a href="#">sample</a>
+                            <a href="#">sample</a>
+                            <a href="#">sample</a>
+                           
+                    </div>
+                    <div class="column">
+                        <img src="image/gitar.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Deals
+            </button>
+            <div class="dropdown-content">
+                <div class="row">
+                    <div class="column">
+                        <h4>Most popular categories</h4>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                    </div>
+                    <div class="column">
+                        <h4>More categories</h4>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                        <a href="#">sample</a>
+                        
+                    </div>
+                    <div class="column">
+                        <img src="image/cap.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#home">Sell</a>
+    </div>
+
+    <br>
+    <!--web banner-->
+    <div class="web_banner">
+        <div class="left_banner">
+            <div class="banner_left_header"> You may have a special offer</div>
+            <div class="banner_left_text_2">
+                Sign in to your account to find out.
+            </div>
+            <div class="banner_left_button">
+                <button>Go to My eBay <big><big> &#8594;</big></big>
+                </button>
+            </div>
+        </div>
+
+        <div class="right_banner">
+            <img src="./Image/ebay_today.png" alt="image">
+
+        </div>
+    </div>
+    <!--images row-->
+    <div class="imagesrow">
+        <h1 class="topics div3">Explore Popular Categories</h1>
+        <div class="div2">
+            <div class="div1">
+                <img src="https://i.ebayimg.com/images/g/-1UAAOSwzH9f4xc5/s-l200.webp" width="150" height="150">
+                <center><a href="#" class="imgname">Sneakers</a></center>
+            </div>
+
+            <div class="div1">
+                <img src="https://i.ebayimg.com/images/g/xR8AAOSwPVZfkEGQ/s-l200.webp" width="150" height="150">
+                <center><a href="#" class="imgname">korean beauty</a></center>
+            </div>
+
+            <div class="div1">
+                <img src="https://i.ebayimg.com/images/g/ikgAAOSwWb5fkEGQ/s-l200.webp" width="150" height="150">
+                <center><a href="#" class="imgname">Wristwatch</a></center>
+            </div>
+
+            <div class="div1">
+                <img src="https://i.ebayimg.com/images/g/vJgAAOSwgYpfkEGQ/s-l200.webp" width="150" height="150">
+                <center><a href="#" class="imgname">Finishing</a></center>
+            </div>
+
+            <div class="div1">
+                <img src="https://i.ebayimg.com/images/g/8Z0AAOSwik1fkEGQ/s-l200.webp" width="150" height="150">
+                <center><a href="#" class="imgname">Collectibles</a></center>
+            </div>
+
+            <div class="div1">
+                <img src="https://i.ebayimg.com/images/g/Y7UAAOSwewJfkEGQ/s-l200.webp" width="150" height="150">
+                <center><a href="#" class="imgname">Pmartphones</a></center>
+            </div>
+
+            <div class="div1">
+                <img src="https://i.ebayimg.com/images/g/mTcAAOSwPzVf4xc4/s-l200.webp" width="150" height="150">
+                <center><a href="#" class="imgname">Sell</a></center>
+            </div>
+        </div>
+        <br><br>
+
+
+    <!--bottom-->
+    <div class="bottom_div">
+        <table border="0" cellspacing="10" cellpadding="10" style="margin-left: 15%;">
+            <tr>
+                <td class="bottom_head_text"><b><a href="https://www.ebay.com/n/all-categories" class="bottom_head_text">Buy</a></b></td>
+
+                <td class="bottom_head_text"><b><a href="https://www.ebay.com/sl/sell" class="bottom_head_text">Sell</a></b></td>
+
+                <td class="bottom_head_text"><b>Stay Conected</b></td>
+
+                <td class="bottom_head_text"><b><a href="https://www.ebayinc.com/company/" class="bottom_head_text">About eBay</a></b>
+                </td>
+
+                <td class="bottom_head_text"><b><a href="https://www.ebay.com/help/home" class="bottom_head_text">Help&Contact</a></b>
+                </td>
+
+            </tr>
+            <tr>
+                <td><a href="https://www.ebay.com/help/account/default/ebay-account?id=4188">Registration</a>
+                </td>
+                <td><a href="https://www.ebay.com/sl/sell">Start selling</a></td>
+                <td><a href="https://www.ebayinc.com/">eBay's Blogs</a></td>
+                <td><a href="https://www.ebayinc.com/company/">Company info</a></td>
+                <td><a href="https://pages.ebay.com/seller-center/index.html">Seller Information Center</a>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://pages.ebay.com/ebay-money-back-guarantee/">eBay Money Back Guarantee</a>
+                </td>
+                <td><a href="https://pages.ebay.com/seller-center/get-started/selling-basics.html">Learn to
+                        sell</a></td>
+                <td><a href="https://www.facebook.com/ebay/">facebook</a></td>
+                <td><a href="https://www.ebayinc.com/stories/news/">News</a></td>
+                <td><a href="https://www.ebay.com/help/home">Contact us</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.ebay.com/help/buying">Bidding & buying help</a></td>
+                <td><a href="https://partnernetwork.ebay.com/">Affiliates</a></td>
+                <td><a href="https://twitter.com/eBay">Twitter</a></td>
+                <td><a href="https://investors.ebayinc.com/overview/default.aspx">Investors</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.ebay.com/b/Stores-HUB/bn_7004224522">Stores</a></td>
+                <td></td>
+                <td></td>
+                <td><a href="https://careers.ebayinc.com/">Careers</a></td>
+                <td class="bottom_head_text"><a href="https://community.ebay.com/" class="bottom_head_text"><b>Community</b></a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="bottom_head_text"><b>Tools & apps</b></td>
+                <td></td>
+                <td><a href="https://www.ebaymainstreet.com/">Government Relations</a></td>
+                <td><a
+                        href="https://community.ebay.com/t5/Announcements/bg-p/Announcements">Announcements</a></td>
+                <td class="td"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><a href="https://developer.ebay.com/">Developers</a></td>
+                <td></td>
+                <td><a href="https://www.ebayads.com/">Advertise with us</a></td>
+                <td><a href="https://community.ebay.com/t5/Discussions/ct-p/12001">Discussion boards</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><a href="https://pages.ebay.com/securitycenter/index.html">Security center</a></td>
+                <td></td>
+                <td><a
+                        href="https://www.ebay.com/help/policies/default/ebays-rules-policies?id=4205">Policies</a></td>
+                <td><a href="https://charity.ebay.com/">eBay Giving Works</a></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td><a href="https://pages.ebay.com/sitemap.html">Site map</a></td>
+                <td></td>
+                <td><a
+                        href="https://pages.ebay.com/seller-center/listing-and-marketing/verified-rights-owner-program.html#what-is-the-vero-program">Verified
+                        Rights Owner (VeRO) Program
+                    </a>
+                    </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+
+</html>
